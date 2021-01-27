@@ -4,6 +4,8 @@ import {createStructuredSelector} from 'reselect';
 import {connect} from 'react-redux';
 import {selectCartItems  ,selectCartTotal} from '../../redux/cart/cart.selectors';
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
+
+
 const CheckoutPage = ({cartItems , total}) => (
     <div className='checkout-page'>
         <div className='checkout-header'>
